@@ -1,10 +1,8 @@
-import React from 'react'
+import { Container } from 'postcss'
 
-const PageContainer = () => {
+const PageContainer = ({children}) => {
   return (
-    <div>
-      
-    </div>
+    <Container maxWidth="lg">{children}</Container>
   )
 }
 
