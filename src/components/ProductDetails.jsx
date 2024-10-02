@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom'
 import { setSelectedProduct } from '../redux/slices/productSlice';
 import { CiCirclePlus } from "react-icons/ci";
 import { CiCircleMinus } from "react-icons/ci";
 import { addToBasket, calculateBasket } from '../redux/slices/basketSlice';
-
 
 
 function ProductDetails() {

@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import '../css/Header.css';
 import { CiShoppingBasket } from "react-icons/ci";
 import { CiLight } from "react-icons/ci";
@@ -7,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import Badge from '@mui/material/Badge';
 import { useDispatch, useSelector } from 'react-redux';
 import { setDrawer } from '../redux/slices/basketSlice';
+import  { useState } from 'react'
 
 
 function Header() {
