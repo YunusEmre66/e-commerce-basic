@@ -9,7 +9,7 @@ import { addToBasket, calculateBasket } from '../redux/slices/basketSlice';
 
 
 function ProductDetails() {
-    const { id } = useParams();  //! url deki id yi almak için useParams kullanılır
+    const { id } = useParams();  //! url deki id yi almak için useParams kullanılır, bu sayfadaki id yi almak için kullanıldı
     const { products, selectedProduct } = useSelector((store) => store.product)
 
     const { price, image, title, description } = selectedProduct;
